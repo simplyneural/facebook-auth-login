@@ -3,7 +3,9 @@ import "./App.css";
 
 function App() {
   const [fbAppId, setFbAppId] = useState("532160876956612");
-  const [redirectUri, setRedirectUri] = useState("https://charflows.app");
+  const [redirectUri, setRedirectUri] = useState(
+    "https://facebook-auth-login.vercel.app"
+  );
   const [waPhoneNumber, setWaPhoneNumber] = useState("+15556212510");
 
   const handleOpenFacebookPage = () => {
