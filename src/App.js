@@ -3,13 +3,13 @@ import "./App.css";
 
 function App() {
   const cbt = Date.now(); // Use current timestamp for cbt
+  const [redirectUri, setRedirectUri] = useState(
+    "https://whatsapp-test.chatflows.app"
+  );
   const channelUrl = encodeURIComponent(
     `https://staticxx.facebook.com/x/connect/xd_arbiter/?version=46#cb=${cbt}&domain=${redirectUri}&is_canvas=false&origin=${redirectUri}&relation=opener`
   );
   const [fbAppId, setFbAppId] = useState("356863667241696");
-  const [redirectUri, setRedirectUri] = useState(
-    "https://whatsapp-test.chatflows.app"
-  );
   const [waPhoneNumber, setWaPhoneNumber] = useState(
     "your-whatsapp-phone-number"
   );
