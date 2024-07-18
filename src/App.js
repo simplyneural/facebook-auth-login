@@ -37,7 +37,7 @@ function App() {
   //   );
   // };
   const handleOpenFacebookPage = () => {
-    const fbUrl = `https://www.facebook.com/v2.12/dialog/oauth?app_id=${fbAppId}&cbt=${cbt}&channel_url=${channelUrl}&client_id=${fbAppId}&display=popup&domain=${redirectUri}&e2e=%7B%7D&extras=%7B%22version%22%3A2%2C%22feature%22%3A%22whatsapp_embedded_signup%22%2C%22sessionInfoVersion%22%3A2%7D&fallback_redirect_uri=${fallbackRedirectUri}&locale=en_US&logger_id=f1f0a5dbc3c56dcc2&origin=1&redirect_uri=${redirectUriEncoded}&response_type=token%2Csigned_request%2Cgraph_domain&scope=business_management%2Cwhatsapp_business_management&sdk=joey&version=v2.12`;
+    const fbUrl = `https://www.facebook.com/v2.12/dialog/oauth?app_id=${fbAppId}&cbt=${cbt}&channel_url=${channelUrl}&client_id=${fbAppId}&display=popup&domain=${redirectUri}&e2e=%7B%7D&extras=%7B%22version%22%3A2%2C%22feature%22%3A%22whatsapp_embedded_signup%22%2C%22sessionInfoVersion%22%3A2%7D&fallback_redirect_uri=${fallbackRedirectUri}&locale=en_US&logger_id=f1f0a5dbc3c56dcc2&origin=1&redirect_uri=${channelUrl}&response_type=token%2Csigned_request%2Cgraph_domain&scope=business_management%2Cwhatsapp_business_management&sdk=joey&version=v2.12`;
 
     const width = 600;
     const height = 700;
