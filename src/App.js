@@ -66,7 +66,7 @@ function App() {
   };
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <h1>Business Portfolio and WhatsApp Contact</h1>
         <div>
           <label>
@@ -103,7 +103,7 @@ function App() {
         </div>
         <button onClick={handleOpenFacebookPage}>Open Facebook Page</button>
         <button onClick={handleOpenWhatsApp}>Contact via WhatsApp</button>
-      </header>
+      </header> */}
     </div>
   );
 }
